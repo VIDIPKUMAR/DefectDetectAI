@@ -1,0 +1,7 @@
+# Dashboard dependencies - COMPATIBLE with OpenCV
+streamlit==1.28.0
+plotly==5.17.0
+pandas==2.1.3
+requests==2.31.0
+numpy>=2.0.0,<2.3.0  # ✅ Compatible with OpenCV
+pillow==10.1.0

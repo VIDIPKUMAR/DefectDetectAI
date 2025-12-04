@@ -1,0 +1,15 @@
+{
+  "dashboard": {
+    "title": "ML Defect Detection Dashboard",
+    "panels": [
+      {
+        "title": "Request Rate",
+        "targets": [{ "expr": "rate(defect_detector_requests_total[5m])" }]
+      },
+      {
+        "title": "Defect Detection Rate",
+        "targets": [{ "expr": "defect_detector_defects_found_total" }]
+      }
+    ]
+  }
+}
